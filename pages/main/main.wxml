@@ -1,0 +1,30 @@
+<!--pages/main/main.wxml-->
+<view wx:for="{{array}}" wx:key = "unique">
+  <view class="header">
+    <image src="{{item.creator.avatar}}" class="avatar" mode="aspectFill"></image>
+    <view class="header_text_body">
+      <view><text class="header_text">{{item.creator.username}}</text></view>
+      <view><text class="header_text">{{item.add_time}}</text></view>
+
+    </view>
+  </view>
+
+  <view class="content">
+    <text class="content_text">{{item.content}}</text>
+  </view>
+
+  <view class="bottom">
+    <view class="bottom_view1">
+      <image class="bottom_icon" src="../images/icon_view.png"></image> 
+      <text class="bottom_text">{{item.question.view_num}}</text></view>
+    <view class="bottom_view2">
+      <image class="bottom_icon" src="../images/icon_praise.png"></image> 
+      <text class="bottom_text">{{item.like_num}}</text></view>
+    <view class="bottom_view3">
+      <image class="bottom_icon" src="../images/icon_fav.png"></image> 
+      <text class="bottom_text">{{item.fav_num}}</text>
+    </view>
+  </view>
+
+  <view class="divider"></view>
+</view>

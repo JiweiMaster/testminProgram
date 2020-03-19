@@ -1,0 +1,46 @@
+/* pages/login/login.wxss */
+
+.page {
+  height: 100%;
+}
+
+.logo {
+  margin-top: 200rpx;
+  width: 100%;
+  height: 80px;
+}
+.usernamePwdParent{
+  padding: 10rpx;
+  margin: 30rpx;
+  display: flex;
+  border-radius: 10rpx;
+  border: 1px solid #d0d0d0;
+}
+.usernamePwdImg {
+  align-self: center;
+  width: 60rpx;
+  height: 60rpx;
+}
+.input_box {
+  width: 100%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  font-size: 35rpx;
+}
+
+.login_btn {
+  margin-top: 200rpx;
+  width: 90%;
+  height: 90rpx;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border-radius: 100rpx;
+  background-color: #ea8a58;
+}
+
+

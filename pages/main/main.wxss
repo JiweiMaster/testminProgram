@@ -1,0 +1,98 @@
+/* pages/main/main.wxss */
+
+.header{
+  margin: 10rpx;
+  display: flex;
+}
+
+.header_text_body{
+  align-items: center;
+  margin-left: 20rpx;
+  display: block;
+}
+
+.header_text{
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.avatar{
+  border-radius: 90rpx;
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.content{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 15rpx;
+  font-size: 35rpx;
+}
+.content_text{
+   /*定义为自适应布局*/
+  display: -webkit-box;
+  word-break: break-all;
+   /*超出文字用省略号代替*/
+  text-overflow: ellipsis; 
+  /*竖直方向的超出和隐藏*/
+  -webkit-box-orient: vertical;
+  /*设定行数为2*/
+  -webkit-line-clamp: 3;
+  /*多出部分隐藏*/
+  overflow: hidden;
+}
+
+.bottom{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: flex;
+}
+
+.bottom_view1{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5rpx;
+  text-align: left;
+  float: left;
+  width: 33.3%;
+}
+
+.bottom_view2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rpx;
+  text-align: center;
+  float: left;
+  width: 33.3%;
+}
+
+.bottom_view3{
+  display: flex;
+  align-items: center;/*align-items 属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式*/
+  justify-content: flex-end; /*水平方向居中flex-start center flext-end*/
+  padding: 5rpx;
+  float: left;
+  width: 33.3%;
+}
+
+.bottom_icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.bottom_text{
+  text-align: center;
+  margin-left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  
+}
+.divider{
+  margin-top: 10rpx;
+  background: rgb(225, 225, 225);
+  height: 15rpx;
+}
